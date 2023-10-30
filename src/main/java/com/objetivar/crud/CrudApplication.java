@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
 @EntityScan(basePackages = "com.objetivar.crud.model") // Substitua pelo pacote das suas entidades
-
 public class CrudApplication {
 
 	public static void main(String[] args) {
