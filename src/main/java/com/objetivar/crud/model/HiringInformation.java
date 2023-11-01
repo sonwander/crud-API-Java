@@ -23,7 +23,7 @@ public class HiringInformation {
     private String typeOfWorkingDay;
     private Date contractEndDate;
     private boolean isFirstJob;
-    private String union;
+    private String unionType;
     private Date experienceEndDate1;
     private Date experienceEndDate2;
 }

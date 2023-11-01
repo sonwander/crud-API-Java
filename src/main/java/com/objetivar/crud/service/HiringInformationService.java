@@ -39,7 +39,7 @@ public class HiringInformationService {
             existingHiringInformation.setTypeOfWorkingDay(updatedHiringInformation.getTypeOfWorkingDay());
             existingHiringInformation.setContractEndDate(updatedHiringInformation.getContractEndDate());
             existingHiringInformation.setFirstJob(updatedHiringInformation.isFirstJob());
-            existingHiringInformation.setUnion(updatedHiringInformation.getUnion());
+            existingHiringInformation.setUnionType(updatedHiringInformation.getUnionType());
             existingHiringInformation.setExperienceEndDate1(updatedHiringInformation.getExperienceEndDate1());
             existingHiringInformation.setExperienceEndDate2(updatedHiringInformation.getExperienceEndDate2());
             hiringInformationRepository.save(existingHiringInformation);
